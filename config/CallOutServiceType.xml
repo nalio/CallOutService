@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="CallOutServiceType" factoryClass="com.progress.codeshare.esbservice.callOut.CallOutService"
+ xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="calledEndpoints"/>
+            <stringParam name="keepOriginalPart"/>
+            <stringParam name="messagePart"/>
+            <stringParam name="mode"/>
+            <stringParam name="output"/>
+            <stringParam name="timeout"/>
+        </runtime>
+    </validParams>
+</serviceType>
